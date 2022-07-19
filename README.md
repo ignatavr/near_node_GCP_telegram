@@ -321,7 +321,7 @@ if you haven't erorrs add this script to crontab
 
     crontab -e 
 
- past in the end sctring `0 */2 * * *  /home/<USER>/ping.sh` and save 
+ past in the end sctring `*/5 * * * *  /home/<USER>/ping.sh` and save 
 
  Ok, next please reboot neard with help systemctl *remember our last lesson* and you node ready! 
 
